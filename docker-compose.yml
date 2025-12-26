@@ -1,0 +1,7 @@
+services:
+  time-service:
+    image: time-api:0.0.1
+    container_name: time-api
+    ports:
+      - "5000:5000"
+    restart: unless-stopped 
